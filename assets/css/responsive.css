@@ -1,0 +1,62 @@
+@media only screen and (max-width: 768px) {
+    #wrapperCannarex #header{
+        margin-bottom: 0px;
+    }
+    #wrapperCannarex .main{
+        padding: 0;
+    }
+    #wrapperCannarex .block-header {
+        display: none;
+    }
+    #wrapperCannarex .block-header-responsive{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        position: relative;
+    }
+    #wrapperCannarex .block-header-responsive .block-menu{
+        position: absolute;
+        top: 80px;
+        width: 100%;
+        height: 100vh;
+        background-color: #080808;
+        z-index: 1000;
+        display: none;
+        padding: 0px -20px;
+    }
+    #wrapperCannarex .block-header-responsive .block-menu .btnConnect{
+        position: absolute;
+        bottom: 80px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    #wrapperCannarex .block-header-responsive .main-menu .item,.block-header-responsive .main-menu .item .link-item{
+        display: block;
+        width: 100%;
+        padding: 10px 0px;
+    }
+    #wrapperCannarex .block-header-responsive .block-menu.active{
+        display: block;
+    }
+    #wrapperCannarex #content .block-img .auction{
+        width: 90%;
+        bottom: 30px;
+    }
+    #wrapperCannarex #content .main .title{
+        margin-top: 10px;
+    }
+    #wrapperCannarex #content .section .block-auction>.block-img{
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+    #wrapperCannarex .block-footer{
+        display: block;
+        padding: 20px 10px;
+    }
+    #wrapperCannarex .block-footer .copyright{
+        margin-bottom: 10px;
+    }
+    #wrapperCannarex .block-footer .service{
+        justify-content: space-between;
+    }
+}
